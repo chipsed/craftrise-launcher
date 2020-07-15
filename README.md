@@ -1,6 +1,6 @@
 # craftrise-launcher
 
-Craftrise Launcher "API" Informations:
+#Craftrise Launcher "API" Informations:
 Craftrise Client's Subdomain:
 https://client.craftrise.network/
 Api Folder
