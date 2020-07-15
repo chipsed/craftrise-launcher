@@ -1,9 +1,9 @@
 # craftrise-launcher
 
-#Craftrise Launcher "API" Informations:
-Craftrise Client's Subdomain:
+# Craftrise Launcher "API" Informations:<br>
+Craftrise Client's Subdomain:<br>
 https://client.craftrise.network/
-Api Folder
+Api Folder<br>
 https://client.craftrise.network/api/
 Hashs<br>
 https://client.craftrise.network/api/launcher/hashs.php
