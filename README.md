@@ -2,10 +2,10 @@
 
 # Craftrise Launcher "API" Informations:<br>
 Craftrise Client's Subdomain:<br>
-https://client.craftrise.network/
+https://client.craftrise.network/<br><br>
 Api Folder<br>
-https://client.craftrise.network/api/
-Hashs<br>
+https://client.craftrise.network/api/<br>
+Hashs<br><br>
 https://client.craftrise.network/api/launcher/hashs.php
 
 
