@@ -5,7 +5,7 @@ Craftrise Client's Subdomain:
 https://client.craftrise.network/
 Api Folder
 https://client.craftrise.network/api/
-Hashs
+Hashs<br>
 https://client.craftrise.network/api/launcher/hashs.php
 
 
