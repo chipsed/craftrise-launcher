@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXCheckBox?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import java.lang.String?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.Group?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane id="loginPane" fx:id="loginPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="624.0" prefWidth="1082.0" style="-fx-background-color: #292b2f;" stylesheets="@../style/style.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fx:id="image" fitHeight="742.0" fitWidth="1082.0" layoutY="48.0" preserveRatio="true">
+         <image>
+            <Image url="@../generalImages/pattern.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="icon" fitHeight="200.0" fitWidth="159.0" layoutX="462.0" layoutY="38.0" preserveRatio="true">
+         <image>
+            <Image url="@../logos/raccoon-big.png" />
+         </image>
+      </ImageView>
+      <JFXButton fx:id="loginButton" contentDisplay="CENTER" defaultButton="true" ellipsisString="" focusTraversable="false" graphicTextGap="0.0" layoutX="456.0" layoutY="494.0" mnemonicParsing="false" pickOnBounds="false" prefHeight="53.0" prefWidth="171.0" ripplerFill="WHITE" style="-fx-background-color: #ea5b0c;" text="GÄ°RÄ°Å� YAP" textAlignment="CENTER" textFill="WHITE" textOverrun="CENTER_ELLIPSIS" wrapText="true">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <styleClass>
+            <String fx:value="f-mikado-regular" />
+            <String fx:value="f-size-15pt" />
+         </styleClass>
+      </JFXButton>
+      <JFXTextField id="usernameInput" fx:id="usernameInput" focusColor="WHITE" labelFloat="true" layoutX="419.0" layoutY="323.0" prefHeight="36.0" prefWidth="278.0" unFocusColor="WHITE">
+         <styleClass>
+            <String fx:value="f-mikado-regular" />
+            <String fx:value="f-size-15pt" />
+            <String fx:value="f-white" />
+         </styleClass>
+      </JFXTextField>
+      <JFXPasswordField id="passwordInput" fx:id="passwordInput" alignment="TOP_LEFT" focusColor="WHITE" layoutX="419.0" layoutY="379.0" prefHeight="36.0" prefWidth="278.0" unFocusColor="WHITE">
+         <styleClass>
+            <String fx:value="f-mikado-regular" />
+            <String fx:value="f-size-13pt" />
+            <String fx:value="f-white" />
+         </styleClass>
+      </JFXPasswordField>
+      <JFXCheckBox id="rememberMe" fx:id="rememberMe" blendMode="SRC_ATOP" checkedColor="#a4a4a4" focusTraversable="false" graphicTextGap="10.0" layoutX="419.0" layoutY="430.0" text="Beni HatÄ±rla" textFill="WHITE" textOverrun="CLIP" unCheckedColor="WHITE">
+         <font>
+            <Font size="96.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <styleClass>
+            <String fx:value="f-sourcesans-regular" />
+            <String fx:value="f-size-10pt" />
+         </styleClass>
+      </JFXCheckBox>
+      <ImageView fitHeight="22.0" fitWidth="21.0" layoutX="390.0" layoutY="333.0">
+         <image>
+            <Image url="@../loginImages/userSymbol.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="22.0" fitWidth="19.0" layoutX="390.0" layoutY="391.0">
+         <image>
+            <Image url="@../loginImages/lockSymbol.png" />
+         </image>
+      </ImageView>
+      <Text id="forgotPassword" fx:id="forgotPassword" fill="WHITE" layoutX="601.0" layoutY="445.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Å�ifremi Unuttum">
+         <font>
+            <Font size="13.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <styleClass>
+            <String fx:value="f-sourcesans-regular" />
+            <String fx:value="f-size-10pt" />
+         </styleClass>
+      </Text>
+      <Text id="createAccount" fx:id="createAccount" fill="WHITE" layoutX="455.0" layoutY="571.0" strokeType="OUTSIDE" strokeWidth="0.0" text="HesabÄ±n yok mu? Hemen kaydol!">
+         <font>
+            <Font size="13.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <styleClass>
+            <String fx:value="f-sourcesans-regular" />
+            <String fx:value="f-size-9pt" />
+         </styleClass>
+      </Text>
+      <Text id="login-launcherText" fill="#cdcdcd" layoutX="440.0" layoutY="276.0" smooth="false" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="f-mikado-light" text="L  A  U  N  C  H  E  R" textAlignment="CENTER">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Text>
+      <Group>
+         <children>
+            <Rectangle fx:id="headerBar" fill="#202225" height="25.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="1082.0" />
+            <Group id="windowGroup-close" fx:id="closeGroup">
+               <children>
+                  <VBox id="closeButton" fx:id="closeButton" layoutX="1057.0" prefHeight="25.0" prefWidth="25.0">
+                     <children>
+                        <ImageView id="closeButton" fitHeight="25.0" fitWidth="25.0">
+                           <image>
+                              <Image url="@../generalImages/buttons/close.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </VBox>
+                  <VBox id="closeButtonHover" fx:id="closeButtonHover" layoutX="1057.0" prefHeight="25.0" prefWidth="25.0" visible="false">
+                     <children>
+                        <ImageView id="closeButtonHover" fitHeight="25.0" fitWidth="25.0">
+                           <image>
+                              <Image url="@../generalImages/buttons/close-hover.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </VBox>
+                  <VBox id="closeButtonActive" fx:id="closeButtonActive" layoutX="1057.0" prefHeight="25.0" prefWidth="25.0" visible="false">
+                     <children>
+                        <ImageView fitHeight="25.0" fitWidth="25.0">
+                           <image>
+                              <Image url="@../generalImages/buttons/close-active.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </VBox>
+               </children>
+            </Group>
+            <Group id="windowGroup-minimize" fx:id="minimizeGroup" layoutX="-30.0">
+               <children>
+                  <VBox id="minimizeButton" fx:id="minimizeButton" layoutX="1057.0" prefHeight="25.0" prefWidth="25.0">
+                     <children>
+                        <ImageView id="minimizeButton" fitHeight="25.0" fitWidth="25.0">
+                           <image>
+                              <Image url="@../generalImages/buttons/minimize.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </VBox>
+                  <VBox id="minimizeButtonHover" fx:id="minimizeButtonHover" layoutX="1057.0" prefHeight="25.0" prefWidth="25.0" visible="false">
+                     <children>
+                        <ImageView id="minimizeButtonHover" fitHeight="25.0" fitWidth="25.0">
+                           <image>
+                              <Image url="@../generalImages/buttons/minimize-hover.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </VBox>
+                  <VBox id="minimizeButtonActive" fx:id="minimizeButtonActive" layoutX="1057.0" prefHeight="25.0" prefWidth="25.0" visible="false">
+                     <children>
+                        <ImageView id="minimizeButtonActive" fitHeight="25.0" fitWidth="25.0">
+                           <image>
+                              <Image url="@../generalImages/buttons/minimize-active.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </VBox>
+               </children>
+            </Group>
+         </children>
+      </Group>
+   </children>
+</Pane>

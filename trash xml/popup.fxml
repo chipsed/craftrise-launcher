@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import java.lang.String?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane id="shadowPane" prefHeight="253.0" prefWidth="686.0" style="-fx-background-color: transparent;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane id="rootPane" layoutX="52.0" layoutY="22.0">
+         <children>
+            <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="210.0" prefWidth="582.0" style="-fx-border-radius: 30; -fx-background-color: #ffffff;" stylesheets="@../style/style.css">
+               <children>
+                  <Text id="mainText" fx:id="mainText" boundsType="VISUAL" fontSmoothingType="LCD" layoutX="-1.0" layoutY="58.0" strokeType="OUTSIDE" strokeWidth="0.0" text="LÃ¼tfen kullanÄ±cÄ± adÄ±nÄ±zÄ± girin!" textAlignment="CENTER" textOrigin="CENTER" wrappingWidth="582.0">
+                     <font>
+                        <Font name="System Bold" size="15.0" />
+                     </font>
+                     <styleClass>
+                        <String fx:value="f-mikado-black" />
+                        <String fx:value="f-size-20pt" />
+                     </styleClass>
+                  </Text>
+                  <Text id="altText" fx:id="altText" boundsType="VISUAL" fontSmoothingType="LCD" layoutX="-1.0" layoutY="113.0" strokeType="OUTSIDE" strokeWidth="0.0" text="KullanÄ±cÄ± adÄ± kÄ±smÄ±nÄ± boÅŸ bÄ±raktÄ±nÄ±z, giriÅŸ yapabilmek iÃ§in doldurmanÄ±z gerekiyor." textAlignment="CENTER" textOrigin="CENTER" wrappingWidth="582.0">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                     <styleClass>
+                        <String fx:value="f-mikado-light" />
+                        <String fx:value="f-size-13pt" />
+                     </styleClass>
+                  </Text>
+                  <JFXButton id="returnButton" fx:id="returnButton" contentDisplay="CENTER" defaultButton="true" focusTraversable="false" graphicTextGap="0.0" layoutX="231.0" layoutY="158.0" prefHeight="38.0" prefWidth="118.0" style="-fx-background-color: #44D63F;" text="TAMAM" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+                     <font>
+                        <Font name="Arial Bold" size="16.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <styleClass>
+                        <String fx:value="f-mikado-medium" />
+                        <String fx:value="f-size-10pt" />
+                     </styleClass>
+                  </JFXButton>
+               </children>
+            </Pane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

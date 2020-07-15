@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import java.lang.String?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="624.0" prefWidth="1082.0" style="-fx-background-color: white;" styleClass="no-input-line" stylesheets="@../style/style.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Rectangle fill="#f6f6f6" height="550.0" layoutX="305.0" layoutY="74.0" smooth="false" stroke="BLACK" strokeMiterLimit="0.0" strokeType="INSIDE" strokeWidth="0.0" width="777.0" />
+      <Group>
+         <children>
+            <Rectangle fill="#e4e4e4" height="532.0" layoutY="92.0" smooth="false" stroke="BLACK" strokeMiterLimit="0.0" strokeType="INSIDE" strokeWidth="0.0" width="305.0" />
+            <JFXTextField layoutX="43.0" layoutY="93.0" prefHeight="30.0" prefWidth="236.0" promptText="ArkadaÅŸ Ara">
+               <styleClass>
+                  <String fx:value="f-mikado-regular-italic" />
+                  <String fx:value="f-size-10pt" />
+               </styleClass>
+            </JFXTextField>
+            <ImageView fitHeight="150.0" fitWidth="15.0" layoutX="18.0" layoutY="100.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../icons/search.png" />
+               </image>
+            </ImageView>
+            <Group>
+               <children>
+                  <Rectangle fill="WHITE" height="31.0" layoutY="124.0" smooth="false" stroke="BLACK" strokeMiterLimit="0.0" strokeType="INSIDE" strokeWidth="0.0" width="305.0" />
+                  <Text fill="#818181" layoutX="18.0" layoutY="144.0" smooth="false" strokeType="OUTSIDE" strokeWidth="0.0" text="Ã‡evrimiÃ§i ArkadaÅŸlar">
+                     <styleClass>
+                        <String fx:value="f-mikado-medium" />
+                        <String fx:value="f-size-11pt" />
+                     </styleClass>
+                  </Text>
+                  <ImageView fitHeight="150.0" fitWidth="15.0" layoutX="282.0" layoutY="131.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../icons/down-arrow.png" />
+                     </image>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </ImageView>
+               </children>
+            </Group>
+            <Group layoutX="5.0" layoutY="26.0">
+               <children>
+                  <Rectangle fill="#a1f410" height="36.0" layoutX="22.0" layoutY="143.0" stroke="BLACK" strokeMiterLimit="0.0" strokeType="INSIDE" strokeWidth="0.0" width="36.0" />
+                  <ImageView id="playerHead" fx:id="playerHead1" fitHeight="32.0" fitWidth="32.0" layoutX="24.0" layoutY="145.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../generalImages/head.png" />
+                     </image>
+                  </ImageView>
+                  <Text layoutX="71.0" layoutY="158.0" strokeType="OUTSIDE" strokeWidth="0.0" text="BayEmre">
+                     <styleClass>
+                        <String fx:value="f-mikado-regular" />
+                        <String fx:value="f-size-11pt" />
+                     </styleClass>
+                  </Text>
+                  <Text fill="#818181" layoutX="71.0" layoutY="173.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Skywars Solo (1-2) Oynuyor.">
+                     <styleClass>
+                        <String fx:value="f-mikado-regular" />
+                        <String fx:value="f-size-11pt" />
+                     </styleClass>
+                  </Text>
+               </children>
+            </Group>
+            <Group layoutX="5.0" layoutY="76.0">
+               <children>
+                  <Rectangle fill="#a1f410" height="36.0" layoutX="22.0" layoutY="143.0" stroke="BLACK" strokeMiterLimit="0.0" strokeType="INSIDE" strokeWidth="0.0" width="36.0" />
+                  <ImageView id="playerHead" fx:id="playerHead11" fitHeight="32.0" fitWidth="32.0" layoutX="24.0" layoutY="145.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../generalImages/head.png" />
+                     </image>
+                  </ImageView>
+                  <Text layoutX="71.0" layoutY="158.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DarelSprings">
+                     <styleClass>
+                        <String fx:value="f-mikado-regular" />
+                        <String fx:value="f-size-11pt" />
+                     </styleClass>
+                  </Text>
+                  <Text fill="#818181" layoutX="71.0" layoutY="173.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bomb Lobbers Oynuyor.">
+                     <styleClass>
+                        <String fx:value="f-mikado-regular" />
+                        <String fx:value="f-size-11pt" />
+                     </styleClass>
+                  </Text>
+               </children>
+            </Group>
+         </children>
+      </Group>
+      <ScrollPane fitToWidth="true" layoutX="305.0" layoutY="74.0" prefHeight="501.0" prefWidth="777.0">
+        <content>
+          <AnchorPane centerShape="false" minHeight="0.0" minWidth="0.0" prefHeight="900.0" prefWidth="776.0" style="-fx-background-color: #f6f6f6;">
+               <children>
+                  <Group>
+                     <children>
+                        <Rectangle fill="#dadada" height="147.0" layoutX="14.0" layoutY="141.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="560.0" />
+                        <ImageView id="playerHead" fx:id="playerHead12" fitHeight="32.0" fitWidth="32.0" layoutX="24.0" layoutY="151.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../generalImages/head.png" />
+                           </image>
+                        </ImageView>
+                        <Text layoutX="66.0" layoutY="168.0" strokeType="OUTSIDE" strokeWidth="0.0" text="BayEmre">
+                           <styleClass>
+                              <String fx:value="f-mikado-regular" />
+                              <String fx:value="f-size-11pt" />
+                           </styleClass>
+                        </Text>
+                        <Label layoutX="65.0" layoutY="175.0" prefHeight="106.0" prefWidth="498.0" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." wrapText="true">
+                           <styleClass>
+                              <String fx:value="f-mikado-regular" />
+                              <String fx:value="f-size-11pt" />
+                           </styleClass>
+                        </Label>
+                     </children>
+                  </Group>
+                  <Group layoutY="160.0">
+                     <children>
+                        <Rectangle fill="#dadada" height="147.0" layoutX="14.0" layoutY="141.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="560.0" />
+                        <ImageView id="playerHead" fx:id="playerHead121" fitHeight="32.0" fitWidth="32.0" layoutX="24.0" layoutY="151.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../generalImages/head.png" />
+                           </image>
+                        </ImageView>
+                        <Text layoutX="66.0" layoutY="168.0" strokeType="OUTSIDE" strokeWidth="0.0" text="UmutUG">
+                           <styleClass>
+                              <String fx:value="f-mikado-regular" />
+                              <String fx:value="f-size-11pt" />
+                           </styleClass>
+                        </Text>
+                        <Label layoutX="65.0" layoutY="175.0" prefHeight="106.0" prefWidth="498.0" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." wrapText="true">
+                           <styleClass>
+                              <String fx:value="f-mikado-regular" />
+                              <String fx:value="f-size-11pt" />
+                           </styleClass>
+                        </Label>
+                     </children>
+                  </Group>
+                  <Group layoutY="320.0">
+                     <children>
+                        <Rectangle fill="#dadada" height="147.0" layoutX="14.0" layoutY="141.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="560.0" />
+                        <ImageView id="playerHead" fx:id="playerHead1211" fitHeight="32.0" fitWidth="32.0" layoutX="24.0" layoutY="151.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../generalImages/head.png" />
+                           </image>
+                        </ImageView>
+                        <Text layoutX="66.0" layoutY="168.0" strokeType="OUTSIDE" strokeWidth="0.0" text="UmutUG">
+                           <styleClass>
+                              <String fx:value="f-mikado-regular" />
+                              <String fx:value="f-size-11pt" />
+                           </styleClass>
+                        </Text>
+                        <Label layoutX="65.0" layoutY="175.0" prefHeight="106.0" prefWidth="498.0" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." wrapText="true">
+                           <styleClass>
+                              <String fx:value="f-mikado-regular" />
+                              <String fx:value="f-size-11pt" />
+                           </styleClass>
+                        </Label>
+                     </children>
+                  </Group>
+               </children>
+            </AnchorPane>
+        </content>
+      </ScrollPane>
+      <Rectangle fill="#ea5b0c" height="4.0" layoutY="71.0" smooth="false" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="1082.0" />
+      <Group fx:id="profileGroup" layoutY="-111.0">
+         <children>
+            <Rectangle fill="WHITE" height="65.0" layoutY="136.0" smooth="false" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="305.0" />
+            <Rectangle fill="#ea5b0c" height="4.0" layoutY="199.0" smooth="false" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="305.0" />
+            <Group layoutX="-8.0" layoutY="-1.0">
+               <children>
+                  <Rectangle fill="#ea5b0c" height="52.0" layoutX="22.0" layoutY="143.0" stroke="BLACK" strokeMiterLimit="0.0" strokeType="INSIDE" strokeWidth="0.0" width="52.0" />
+                  <ImageView id="playerHead" fx:id="playerHead" fitHeight="48.0" fitWidth="48.0" layoutX="24.0" layoutY="145.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../generalImages/head.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Group>
+            <Group layoutX="77.0" layoutY="171.0">
+               <children>
+                  <Text id="friends-profileName" strokeType="OUTSIDE" strokeWidth="0.0" text="UMUTUG">
+                     <font>
+                        <Font name="Arial" size="15.0" />
+                     </font>
+                     <styleClass>
+                        <String fx:value="f-mikado-bold" />
+                        <String fx:value="f-size-9pt" />
+                     </styleClass>
+                  </Text>
+                  <Text id="friends-profileStatus" fx:id="username" fill="#7cc623" layoutY="15.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ã‡evrimiÃ§i">
+                     <font>
+                        <Font name="Arial" size="15.0" />
+                     </font>
+                     <styleClass>
+                        <String fx:value="f-mikado-regular" />
+                        <String fx:value="f-size-10pt" />
+                     </styleClass>
+                  </Text>
+               </children>
+            </Group>
+            <Text layoutX="268.0" layoutY="173.0" rotate="270.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PROFÄ°L" textAlignment="CENTER">
+               <font>
+                  <Font name="Arial" size="15.0" />
+               </font>
+               <styleClass>
+                  <String fx:value="f-mikado-regular" />
+                  <String fx:value="f-size-10pt" />
+               </styleClass>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Text>
+         </children>
+      </Group>
+      <Group id="chatTitleGroup">
+         <children>
+            <Rectangle fill="#dddddd" height="40.0" layoutX="305.0" layoutY="31.0" smooth="false" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="190.0" />
+            <Text layoutX="349.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Genel Sohbet">
+               <styleClass>
+                  <String fx:value="f-mikado-regular" />
+                  <String fx:value="f-size-10pt" />
+               </styleClass>
+            </Text>
+            <Text fill="#818181" layoutX="349.0" layoutY="64.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1.242 kiÅŸi aktif!">
+               <styleClass>
+                  <String fx:value="f-mikado-light" />
+                  <String fx:value="f-size-9pt" />
+               </styleClass>
+            </Text>
+            <ImageView id="closeChatButton" fitHeight="150.0" fitWidth="15.0" layoutX="478.0" layoutY="33.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../generalImages/buttons/close.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+            <ImageView id="sendButton" fitHeight="150.0" fitWidth="25.0" layoutX="316.0" layoutY="39.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../icons/comment.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+         </children>
+      </Group>
+      <Rectangle fill="#cecece" height="50.0" layoutX="305.0" layoutY="574.0" smooth="false" stroke="BLACK" strokeMiterLimit="0.0" strokeType="INSIDE" strokeWidth="0.0" width="777.0" />
+      <JFXTextArea id="friends-message" layoutX="322.0" layoutY="582.0" prefHeight="25.0" prefWidth="700.0" promptText="Mesaj yaz..." />
+      <ImageView id="sendButton" fitHeight="150.0" fitWidth="25.0" layoutX="1045.0" layoutY="587.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../icons/send.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <Group>
+         <children>
+            <Rectangle fx:id="headerBar" fill="#e3e5e8" height="25.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="1082.0" />
+            <Group id="windowGroup-close" fx:id="closeGroup">
+               <children>
+                  <VBox id="closeButton" fx:id="closeButton" layoutX="1057.0" prefHeight="25.0" prefWidth="25.0">
+                     <children>
+                        <ImageView id="closeButton" fitHeight="25.0" fitWidth="25.0">
+                           <image>
+                              <Image url="@../generalImages/buttons/close.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </VBox>
+                  <VBox id="closeButtonHover" fx:id="closeButtonHover" layoutX="1057.0" prefHeight="25.0" prefWidth="25.0" visible="false">
+                     <children>
+                        <ImageView id="closeButtonHover" fitHeight="25.0" fitWidth="25.0">
+                           <image>
+                              <Image url="@../generalImages/buttons/close-hover.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </VBox>
+                  <VBox id="closeButtonActive" fx:id="closeButtonActive" layoutX="1057.0" prefHeight="25.0" prefWidth="25.0" visible="false">
+                     <children>
+                        <ImageView fitHeight="25.0" fitWidth="25.0">
+                           <image>
+                              <Image url="@../generalImages/buttons/close-active.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </VBox>
+               </children>
+            </Group>
+            <Group id="windowGroup-screen" fx:id="screenGroup" layoutX="-30.0">
+               <children>
+                  <VBox id="screenButton" fx:id="screenButton" layoutX="1057.0" prefHeight="25.0" prefWidth="25.0">
+                     <children>
+                        <ImageView id="screenButton" fitHeight="25.0" fitWidth="25.0">
+                           <image>
+                              <Image url="@../generalImages/buttons/fulscreen.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </VBox>
+                  <VBox id="screenButtonHover" fx:id="screenButtonHover" layoutX="1057.0" prefHeight="25.0" prefWidth="25.0" visible="false">
+                     <children>
+                        <ImageView id="screenButtonHover" fitHeight="25.0" fitWidth="25.0">
+                           <image>
+                              <Image url="@../generalImages/buttons/fulscreen-hover.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </VBox>
+                  <VBox id="screenButtonActive" fx:id="screenButtonActive" layoutX="1057.0" prefHeight="25.0" prefWidth="25.0" visible="false">
+                     <children>
+                        <ImageView id="screenButtonActive" fitHeight="25.0" fitWidth="25.0">
+                           <image>
+                              <Image url="@../generalImages/buttons/fulscreen-hover.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </VBox>
+               </children>
+            </Group>
+            <Group id="windowGroup-minimize" fx:id="minimizeGroup" layoutX="-60.0">
+               <children>
+                  <VBox id="minimizeButton" fx:id="minimizeButton" layoutX="1057.0" prefHeight="25.0" prefWidth="25.0">
+                     <children>
+                        <ImageView id="minimizeButton" fitHeight="25.0" fitWidth="25.0">
+                           <image>
+                              <Image url="@../generalImages/buttons/minimize.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </VBox>
+                  <VBox id="minimizeButtonHover" fx:id="minimizeButtonHover" layoutX="1057.0" prefHeight="25.0" prefWidth="25.0" visible="false">
+                     <children>
+                        <ImageView id="minimizeButtonHover" fitHeight="25.0" fitWidth="25.0">
+                           <image>
+                              <Image url="@../generalImages/buttons/minimize-hover.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </VBox>
+                  <VBox id="minimizeButtonActive" fx:id="minimizeButtonActive" layoutX="1057.0" prefHeight="25.0" prefWidth="25.0" visible="false">
+                     <children>
+                        <ImageView id="minimizeButtonActive" fitHeight="25.0" fitWidth="25.0">
+                           <image>
+                              <Image url="@../generalImages/buttons/minimize-active.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </VBox>
+               </children>
+            </Group>
+            <Group id="windowGroup-back" fx:id="backGroup">
+               <children>
+                  <VBox id="backButton" fx:id="backButton" prefHeight="25.0" prefWidth="25.0">
+                     <children>
+                        <ImageView id="backButton" fitHeight="25.0" fitWidth="25.0">
+                           <image>
+                              <Image url="@../generalImages/buttons/back.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </VBox>
+                  <VBox id="backButtonHover" fx:id="backButtonHover" prefHeight="25.0" prefWidth="25.0" visible="false">
+                     <children>
+                        <ImageView id="backButtonHover" fitHeight="25.0" fitWidth="25.0">
+                           <image>
+                              <Image url="@../generalImages/buttons/back-hover.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </VBox>
+                  <VBox id="backButtonActive" fx:id="backButtonActive" prefHeight="25.0" prefWidth="25.0" visible="false">
+                     <children>
+                        <ImageView id="backButtonActive" fitHeight="25.0" fitWidth="25.0">
+                           <image>
+                              <Image url="@../generalImages/buttons/back-active.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </VBox>
+               </children>
+            </Group>
+         </children>
+      </Group>
+      <Group layoutX="200.0">
+         <children>
+            <Rectangle fill="#c3c3c3" height="40.0" layoutX="305.0" layoutY="31.0" smooth="false" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="190.0" />
+            <Text id="chatHeader-title" layoutX="349.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" text="BayEmre">
+               <styleClass>
+                  <String fx:value="f-mikado-regular" />
+                  <String fx:value="f-size-10pt" />
+               </styleClass>
+            </Text>
+            <Text id="chatHeader-description" fill="#818181" layoutX="349.0" layoutY="64.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Creative sunucusunda">
+               <styleClass>
+                  <String fx:value="f-mikado-light" />
+                  <String fx:value="f-size-9pt" />
+               </styleClass>
+            </Text>
+            <ImageView id="closeChatButton" fitHeight="150.0" fitWidth="15.0" layoutX="478.0" layoutY="33.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../generalImages/buttons/close.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+            <ImageView id="chatHeader-image" fitHeight="150.0" fitWidth="25.0" layoutX="316.0" layoutY="39.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../generalImages/head.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+         </children>
+      </Group>
+   </children>
+</AnchorPane>
